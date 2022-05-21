@@ -6,7 +6,7 @@
 
 # Использование:
 ```
-//Константы
+// Константы
 
 const sqlite3 = require('sqlite3').verbose();
 const db = new sqlite3.Database('database');
@@ -22,3 +22,6 @@ var something = row_get.something
 psql.dbRun(db, `SQL...`)
 
 ```
+
+# ...
+- возможно я это буду доробатывать, но я психически больной и мне надо поскорее в дурку.
